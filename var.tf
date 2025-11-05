@@ -15,6 +15,10 @@ variable "common_tags" {
   default = {}
 }
 
+variable "enable_dns_hostnames" {
+    default = true
+}
+
 variable "vpc_tags" {
   default = {}
 }
